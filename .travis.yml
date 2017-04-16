@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+    iojs
+before_script:
+    cd apps/united/united-api
+    npm install -g gulp
+script: gulp test
