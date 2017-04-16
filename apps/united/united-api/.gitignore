@@ -1,0 +1,11 @@
+target/
+dist/
+node_modules/
+bin/
+release/
+.classpath
+.settings
+.project
+*.bak
+.svn
+*.log
