@@ -2,9 +2,11 @@ language: node_js
 node_js:
     - iojs
 install:
+    - cd apps/united/united-api
     - npm install
 before_script:
     - cd apps/united/united-api
     - npm install -g gulp
 script:
+    - cd apps/united/united-api
     - gulp test
